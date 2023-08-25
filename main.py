@@ -38,8 +38,8 @@ for row_num in row_nums:
     elif action == "move_row":
         get_last_filled_value_before_empty(df)
         print(f"Row {row_num} after move:")
-        # Note: If move_row moves the row to the end, 
-        # you might want to print the last row here instead.
+        
+        
         ####print('-' * 40)
 
 ##df.to_excel(filename, sheet_name=sheet_names[0], index=False)  # Save changes back to the Excel file
