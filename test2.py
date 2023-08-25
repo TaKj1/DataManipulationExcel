@@ -12,7 +12,7 @@ def identify_empty_headers(df):
             empty_headers.append(idx)
     return empty_headers
 
-# Loop through all sheets and check for problematic columns
+
 for sheet_name in xls.sheet_names:
     df = pd.read_excel(xls, sheet_name=sheet_name, engine='openpyxl')
     empty_header_indices = identify_empty_headers(df)
