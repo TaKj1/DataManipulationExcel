@@ -35,7 +35,7 @@ def move_row_to_end(file_name, row_num):
     # Save the modified workbook
     workbook.save(file_name)
 
-# Example usage:
+
 file_name = '/home/genadi/Desktop/new(copy).xlsx'
 row_to_move = 10  # Let's say you want to move the 5th row
 move_row_to_end(file_name, row_to_move)
