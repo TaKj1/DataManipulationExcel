@@ -1,5 +1,5 @@
 def reset_row(df, row_num, start_col_index=2):
-    
+    #
     for col_index in range(start_col_index, df.shape[1]):
         try:
             df.iat[row_num-2, col_index] = 0
